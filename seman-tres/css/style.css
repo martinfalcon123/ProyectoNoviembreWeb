@@ -1,0 +1,102 @@
+/*para hacer reseteo de todo el html*/
+*{
+    margin: 0;/*desde el borde hacia afuera*/
+    padding: 0;/*desde el borde hacia adentro*/
+    box-sizing: border-box;/*sino esta activa se le suma el ancho y el borde siempre tiene que estar activa*/
+}
+
+/*estilos de header*/
+header{
+    background-color: #2b2b2b;
+    display: flex;/*se coloca al costado*/
+    justify-content: space-around;/*menu a la izquierda*/
+    align-items: center;/*se centrA*/
+    padding-right: 20px;/*ESAPCIO INTERNO*/
+}
+
+/*unidad absoluta pixeles*/
+/*unidad realtiva los porcentajes se adapta a la pantalla*/
+header img{
+    width: 30%;
+
+}
+
+header nav ul{
+    color: whitesmoke;
+    list-style: none;
+    display: flex;
+    column-gap:30PX ;/*FUNCIONA APARTIR DE FLEX HACE ESAPACIO ENTRE ELEMENTOS*/
+   
+}
+
+/*ESTILOS DE MAIN*/
+main{
+    display: flex;
+    justify-content: center;/*PARA CENTRAR LOS ELEMENTOS*/
+    align-items: center;
+}
+main .textos{/*para centrar todos los textos*/
+    text-align: center;
+}
+
+main .textos h1 span{
+    display: block;
+}
+
+main .textos .boton{
+    background-color: #2b2b2b;
+    color: whitesmoke;
+    padding: 10px;/*espacio interno*/
+    margin-top: 10px;/*lo separo*/
+    display: inline-block;/*lo convierto en etiqueta de line y ocupa asi nel ancho de su contenido*/
+    box-shadow:10px 10px 10px grey ;/*para darle sombra al boton*/
+    border-bottom-left-radius:  50px;
+    border-top-left-radius: 50px;
+
+
+}
+main .img{
+    display: flex;
+    justify-content: center;
+}
+
+main .img img{
+    width: 70%;/*tamaño de la imagen*/
+
+}
+
+/*ESTILOS DE SECTION*/
+
+section{
+    display: flex;
+    background-color: #2b2b2b;
+    padding: 10px;
+    justify-content: center;
+    flex-wrap: wrap;/*SE ADAPTA A CELULAR*/
+
+}
+
+section div{
+    display: flex;
+    flex-direction: column;/*me queda en columna*/
+    align-items: center;/*se centra imagenes con textos*/
+    color: whitesmoke;
+    margin-left: 10px;
+}
+
+section div img{
+    width: 30%;
+}
+
+/*ESETILOS DE FOOTER*/
+
+footer{
+    text-align: center;
+}
+
+
+
+
+
+
+

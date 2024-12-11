@@ -1,0 +1,18 @@
+h2{
+    background-color: black;
+    color: bisque;
+}
+/* tipos de selectores */
+/* ES una etiqueta, header, div section, etc... */
+/* class para css*/
+
+/* ID se dejan reserbados para el uso de javascript*/
+
+.otro-h2{
+    color: blueviolet;
+    background-color: beige !important ;
+}
+/* id */
+#otro-h2{
+    color: aquamarine;
+}

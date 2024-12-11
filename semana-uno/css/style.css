@@ -1,0 +1,47 @@
+body{
+    /*color a toda la pagina*/
+    background-color:rgb(235, 228, 218);
+}
+
+.parrafo_servicios{
+    color:black;
+    font-style: italic;
+    font-size: 1.5em;
+    font-weight: bold;
+
+    text-align: center;
+}
+
+.home{
+    text-decoration: dashed;
+    text-transform: capitalize;
+}
+
+p{
+    /*para darle color a la letra*/
+    color:cadetblue;
+}
+
+.li{
+    list-style-type: none;
+    text-decoration: none;
+    
+}
+.en{
+    display: inline;
+}
+
+
+a{
+    /*para sacar los subrayados a los enlaces*/
+    list-style-type: none;
+    text-decoration: none;
+
+}  
+.primera_parte{
+    color:black;
+    font-style: italic;
+    font-weight: bold;
+
+
+}
